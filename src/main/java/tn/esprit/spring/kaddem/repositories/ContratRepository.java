@@ -25,4 +25,5 @@ public Integer getnbContratsValides(@Param("startDate") Date startDate, @Param("
 
 public List<Contrat> findAll();
 public Contrat findByIdContrat(Integer idContrat);
+// This is a contract with the most common ISO Date Format yyyy-MM-dd — for example, "2000-10-31".
 }
